@@ -1,0 +1,313 @@
+2024-03-19 20:10:41.917 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:10:41.924 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-03-19 20:10:41.924 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-03-19 20:10:41.924 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240319-201031_oynhw2/agentscope.db]
+2024-03-19 20:10:41.926 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:10:41.926 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen1.5-72b-chat.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:10:41.927 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen1.5-72b-chat.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:10:41.928 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen1.5-72b-chat.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+incidence_checker: 吕布射戟
+2024-03-19 20:10:43.068 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 不知道。["《三国志》中并未记载吕布射戟这一事件。"]
+Reader: 不知道。["《三国志》中并未记载吕布射戟这一事件。"]
+Reader: 不知道。["《三国志》中并未记载吕布射戟这一事件。"]
+Reader: 不知道。["《三国志》中并未记载吕布射戟这一事件。"]
+Reader: 不知道。["《三国志》中并未记载吕布射戟这一事件。"]
+Reader: 不知道。["《三国志》中并未记载吕布射戟这一事件。"]
+2024-03-19 20:10:51.175 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:10:51.177 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:10:51.179 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:10:51.180 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+refiner: 不知道。["《三国志》中并未记载吕布射戟这一事件。"]
+2024-03-19 20:11:17.041 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:11:17.041 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:11:17.042 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:11:17.042 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:11:17.042 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:11:17.042 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:11:17.042 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:11:17.042 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:11:17.045 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:11:17.045 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+incidence_checker: 关羽，杀，华雄，曹仁，庞德
+incidence_checker: 关羽，杀，华雄，曹仁，庞德
+2024-03-19 20:11:18.144 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:11:18.144 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 关羽没有在《三国志》中被记录为杀了庞德。相反，庞德射中关羽的前额，但并没有提到关羽是否因此丧命。原文是：“后亲与羽交战，射羽中额。”[《三国志》]
+Reader: 关羽没有在《三国志》中被记录为杀了庞德。相反，庞德射中关羽的前额，但并没有提到关羽是否因此丧命。原文是：“后亲与羽交战，射羽中额。”[《三国志》]
+Reader: 关羽在《三国志》中俘获了庞德，但没有直接记载关羽杀了庞德。原文提到：“德与麾下将董衡、部曲将董超等欲降，德皆杀之。战至日中，偃旗鼓，潜以舟载兵诣围头，因开城门。羽疑其有伏，不敢进。德与麾下将成何，矢尽，短兵接战，德奋呼，自投水中，遂为羽所得。”[《三国志》]
+Reader: 关羽在《三国志》中俘获了庞德，但没有直接记载关羽杀了庞德。原文提到：“德与麾下将董衡、部曲将董超等欲降，德皆杀之。战至日中，偃旗鼓，潜以舟载兵诣围头，因开城门。羽疑其有伏，不敢进。德与麾下将成何，矢尽，短兵接战，德奋呼，自投水中，遂为羽所得。”[《三国志》]
+Reader: 《三国志》中没有明确记载关羽在樊城之战或之后杀死了特定的个人，尽管他确实围攻了曹仁并俘虏了于禁。然而，关于关羽被杀的部分，提到“孙权袭杀关羽”，表明关羽最后是被孙权一方的人杀死的。[《三国志》]
+Reader: 《三国志》中没有明确记载关羽在樊城之战或之后杀死了特定的个人，尽管他确实围攻了曹仁并俘虏了于禁。然而，关于关羽被杀的部分，提到“孙权袭杀关羽”，表明关羽最后是被孙权一方的人杀死的。[《三国志》]
+Reader: 根据提供的资料，关羽在《三国志》中的活动并未提及他杀了任何人。关于庞德的记载提到了他在不同战役中的经历，但没有描述关羽杀人的事件。[《三国志》]
+Reader: 根据提供的资料，关羽在《三国志》中的活动并未提及他杀了任何人。关于庞德的记载提到了他在不同战役中的经历，但没有描述关羽杀人的事件。[《三国志》]
+2024-03-19 20:11:56.036 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:11:56.036 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:11:56.036 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:11:56.037 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:11:56.037 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:11:56.037 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:11:56.037 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:11:56.037 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:11:56.037 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:11:56.037 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:11:56.037 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:11:56.037 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:11:56.041 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:11:56.041 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:11:56.041 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+incidence_checker: 关羽、斩杀、颜良
+incidence_checker: 关羽、斩杀、颜良
+incidence_checker: 关羽、斩杀、颜良
+2024-03-19 20:11:57.097 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:11:57.097 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:11:57.097 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“袁绍遣大将颜良于白马进攻东郡太守刘延，操遣张辽及关羽为先锋击颜良。关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“袁绍遣大将颜良于白马进攻东郡太守刘延，操遣张辽及关羽为先锋击颜良。关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“袁绍遣大将颜良于白马进攻东郡太守刘延，操遣张辽及关羽为先锋击颜良。关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+2024-03-19 20:12:09.506 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:12:09.506 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+Reader: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”
+2024-03-19 20:12:09.506 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+refiner: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”.
+refiner: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”.
+refiner: 关羽斩杀了颜良。《三国志》中有记载：“关羽望见良麾盖，策马刺良于万众之中，斩其首还。”.
+2024-03-19 20:13:04.516 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:04.516 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:04.518 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:04.518 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:04.516 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:04.518 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:04.519 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:04.519 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:04.516 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:04.519 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:04.519 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:04.518 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:04.519 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:04.519 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:04.519 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:04.519 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:04.523 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:04.523 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:04.523 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:04.523 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+incidence_checker: 关羽死后，爵位继承
+incidence_checker: 关羽死后，爵位继承
+incidence_checker: 关羽死后，爵位继承
+incidence_checker: 关羽死后，爵位继承
+2024-03-19 20:13:05.435 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:05.435 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:05.435 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:05.435 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 这个问题无法直接从提供的历史资料中得出答案。《三国志》中提到的是刘琳继承了爵位，但没有明确说明这个爵位是否是关羽的。关羽的爵位继承情况在《三国志》的其他部分可能会有提及，但当前给定的资料并不包含这一信息。因此，我无法确定谁继承了关羽的爵位。
+Reader: 这个问题无法直接从提供的历史资料中得出答案。《三国志》中提到的是刘琳继承了爵位，但没有明确说明这个爵位是否是关羽的。关羽的爵位继承情况在《三国志》的其他部分可能会有提及，但当前给定的资料并不包含这一信息。因此，我无法确定谁继承了关羽的爵位。
+Reader: 这个问题无法直接从提供的历史资料中得出答案。《三国志》中提到的是刘琳继承了爵位，但没有明确说明这个爵位是否是关羽的。关羽的爵位继承情况在《三国志》的其他部分可能会有提及，但当前给定的资料并不包含这一信息。因此，我无法确定谁继承了关羽的爵位。
+Reader: 这个问题无法直接从提供的历史资料中得出答案。《三国志》中提到的是刘琳继承了爵位，但没有明确说明这个爵位是否是关羽的。关羽的爵位继承情况在《三国志》的其他部分可能会有提及，但当前给定的资料并不包含这一信息。因此，我无法确定谁继承了关羽的爵位。
+Reader: 这个问题仍然无法从提供的历史资料中得到答案。《三国志》中的记载是关于吕虔家族爵位的传承，而不是关羽的爵位继承情况。因此，我无法确定关羽的爵位被谁继承。
+Reader: 这个问题仍然无法从提供的历史资料中得到答案。《三国志》中的记载是关于吕虔家族爵位的传承，而不是关羽的爵位继承情况。因此，我无法确定关羽的爵位被谁继承。
+Reader: 这个问题仍然无法从提供的历史资料中得到答案。《三国志》中的记载是关于吕虔家族爵位的传承，而不是关羽的爵位继承情况。因此，我无法确定关羽的爵位被谁继承。
+Reader: 这个问题仍然无法从提供的历史资料中得到答案。《三国志》中的记载是关于吕虔家族爵位的传承，而不是关羽的爵位继承情况。因此，我无法确定关羽的爵位被谁继承。
+Reader: 这个问题在提供的历史资料中仍然没有答案。这段《三国志》的内容讨论的是追谥制度和公孙渊的事迹，而非关羽爵位的继承问题。因此，我无法确定关羽的爵位被谁继承。
+Reader: 这个问题在提供的历史资料中仍然没有答案。这段《三国志》的内容讨论的是追谥制度和公孙渊的事迹，而非关羽爵位的继承问题。因此，我无法确定关羽的爵位被谁继承。
+Reader: 这个问题在提供的历史资料中仍然没有答案。这段《三国志》的内容讨论的是追谥制度和公孙渊的事迹，而非关羽爵位的继承问题。因此，我无法确定关羽的爵位被谁继承。
+Reader: 这个问题在提供的历史资料中仍然没有答案。这段《三国志》的内容讨论的是追谥制度和公孙渊的事迹，而非关羽爵位的继承问题。因此，我无法确定关羽的爵位被谁继承。
+Reader: 这段《三国志》的记载提到了文帝赐予高畴的从孙续爵关内侯，但这并不是关于关羽爵位的继承，而是高畴家族的事情。所以，根据这些资料，我们无法得知关羽的爵位被谁继承。
+Reader: 这段《三国志》的记载提到了文帝赐予高畴的从孙续爵关内侯，但这并不是关于关羽爵位的继承，而是高畴家族的事情。所以，根据这些资料，我们无法得知关羽的爵位被谁继承。
+Reader: 这段《三国志》的记载提到了文帝赐予高畴的从孙续爵关内侯，但这并不是关于关羽爵位的继承，而是高畴家族的事情。所以，根据这些资料，我们无法得知关羽的爵位被谁继承。
+Reader: 这段《三国志》的记载提到了文帝赐予高畴的从孙续爵关内侯，但这并不是关于关羽爵位的继承，而是高畴家族的事情。所以，根据这些资料，我们无法得知关羽的爵位被谁继承。
+Reader: 这段《三国志》的记载是关于郭修被追封以及他的儿子继承封号的事情，而不是关羽的爵位继承。因此，这段资料无法回答关于关羽爵位继承的问题。
+Reader: 这段《三国志》的记载是关于郭修被追封以及他的儿子继承封号的事情，而不是关羽的爵位继承。因此，这段资料无法回答关于关羽爵位继承的问题。
+Reader: 这段《三国志》的记载是关于郭修被追封以及他的儿子继承封号的事情，而不是关羽的爵位继承。因此，这段资料无法回答关于关羽爵位继承的问题。
+Reader: 这段《三国志》的记载是关于郭修被追封以及他的儿子继承封号的事情，而不是关羽的爵位继承。因此，这段资料无法回答关于关羽爵位继承的问题。
+Reader: 这段《三国志》的记载提到了刘整和郑像的儿子继承他们的爵位，但并没有提及关羽的爵位继承情况。所以，这段资料无法提供关羽爵位继承的答案。
+Reader: 这段《三国志》的记载提到了刘整和郑像的儿子继承他们的爵位，但并没有提及关羽的爵位继承情况。所以，这段资料无法提供关羽爵位继承的答案。
+Reader: 这段《三国志》的记载提到了刘整和郑像的儿子继承他们的爵位，但并没有提及关羽的爵位继承情况。所以，这段资料无法提供关羽爵位继承的答案。
+Reader: 这段《三国志》的记载提到了刘整和郑像的儿子继承他们的爵位，但并没有提及关羽的爵位继承情况。所以，这段资料无法提供关羽爵位继承的答案。
+2024-03-19 20:13:20.808 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:13:20.808 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:13:20.808 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:13:20.808 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+refiner: 对不起，我不知道关羽死后谁继承了他的爵位。
+refiner: 对不起，我不知道关羽死后谁继承了他的爵位。
+refiner: 对不起，我不知道关羽死后谁继承了他的爵位。
+refiner: 对不起，我不知道关羽死后谁继承了他的爵位。
+2024-03-19 20:13:50.946 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:50.946 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:50.946 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:50.946 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:50.946 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:50.949 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:50.949 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:50.949 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:50.948 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:13:50.949 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:50.949 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:13:50.953 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:50.953 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:50.953 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:50.953 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:50.953 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+incidence_checker: 谥号：壮缪侯
+incidence_checker: 谥号：壮缪侯
+incidence_checker: 谥号：壮缪侯
+incidence_checker: 谥号：壮缪侯
+incidence_checker: 谥号：壮缪侯
+2024-03-19 20:13:51.948 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:51.948 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:51.948 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:51.948 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:13:51.948 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 不知道。提供的资料《三国志》中并未提及关羽死后的谥号。
+Reader: 不知道。提供的资料《三国志》中并未提及关羽死后的谥号。
+Reader: 不知道。提供的资料《三国志》中并未提及关羽死后的谥号。
+Reader: 不知道。提供的资料《三国志》中并未提及关羽死后的谥号。
+Reader: 不知道。提供的资料《三国志》中并未提及关羽死后的谥号。
+Reader: 关羽死后的谥号是壮侯。出自《三国志》中的记载：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脅，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。出自《三国志》中的记载：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脅，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。出自《三国志》中的记载：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脅，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。出自《三国志》中的记载：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脅，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。出自《三国志》中的记载：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脅，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这一信息在之前的《三国志》的引用中已经给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脽，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这一信息在之前的《三国志》的引用中已经给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脽，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这一信息在之前的《三国志》的引用中已经给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脽，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这一信息在之前的《三国志》的引用中已经给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脽，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这一信息在之前的《三国志》的引用中已经给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脽，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脁，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脁，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脁，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脁，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脁，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+Reader: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝
+2024-03-19 20:14:08.949 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:14:08.949 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:14:08.949 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:14:08.949 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:14:08.949 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+refiner: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脵，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”[《三国志》]
+refiner: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脵，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”[《三国志》]
+refiner: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脵，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”[《三国志》]
+refiner: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脵，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”[《三国志》]
+refiner: 关羽死后的谥号是壮侯。这个信息之前已经在《三国志》的引用中给出：“乃遣使就德墓赐谥，策曰：'昔先轸丧元，王蠋绝脵，陨身徇节，前代美之。惟侯戎昭果毅，蹈难成名，声溢当时，义高在昔，寡人愍焉，谥曰壮侯。'”[《三国志》]
+2024-03-19 20:15:06.901 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:15:06.901 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:15:06.901 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:15:06.901 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:15:06.901 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:15:06.903 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:15:06.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:15:06.903 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:15:06.903 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:15:06.903 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:15:06.903 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:15:06.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:15:06.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:15:06.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:15:06.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:15:06.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:15:06.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:15:06.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:15:06.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:15:06.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:15:06.901 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:15:06.903 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:15:06.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:15:06.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:15:06.908 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:06.908 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:06.908 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:06.908 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:06.908 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:06.908 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+incidence_checker: 诸葛亮、攻下、城池
+incidence_checker: 诸葛亮、攻下、城池
+incidence_checker: 诸葛亮、攻下、城池
+incidence_checker: 诸葛亮、攻下、城池
+incidence_checker: 诸葛亮、攻下、城池
+incidence_checker: 诸葛亮、攻下、城池
+2024-03-19 20:15:07.946 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:07.946 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:07.946 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:07.946 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:07.946 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:15:07.946 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+Reader: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+Reader: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+Reader: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+Reader: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+Reader: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+Reader: 《三国志》中没有记载诸葛亮攻下任何特定的城池。文中提到的是刘备占有江南之地后，诸葛亮被任命为军师中郎将，督守零陵、桂阳、长沙三郡，但这并不等同于他亲自攻占了这些地方。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮攻下任何特定的城池。文中提到的是刘备占有江南之地后，诸葛亮被任命为军师中郎将，督守零陵、桂阳、长沙三郡，但这并不等同于他亲自攻占了这些地方。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮攻下任何特定的城池。文中提到的是刘备占有江南之地后，诸葛亮被任命为军师中郎将，督守零陵、桂阳、长沙三郡，但这并不等同于他亲自攻占了这些地方。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮攻下任何特定的城池。文中提到的是刘备占有江南之地后，诸葛亮被任命为军师中郎将，督守零陵、桂阳、长沙三郡，但这并不等同于他亲自攻占了这些地方。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮攻下任何特定的城池。文中提到的是刘备占有江南之地后，诸葛亮被任命为军师中郎将，督守零陵、桂阳、长沙三郡，但这并不等同于他亲自攻占了这些地方。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮攻下任何特定的城池。文中提到的是刘备占有江南之地后，诸葛亮被任命为军师中郎将，督守零陵、桂阳、长沙三郡，但这并不等同于他亲自攻占了这些地方。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中提到的事件是诸葛亮试图进攻北原和阳遂，并非成功攻占。因此，根据这段记载，诸葛亮没有在记载中攻下北原或阳遂。所以，诸葛亮攻下的城池在这个历史片段中并未提及。
+Reader: 《三国志》中提到的事件是诸葛亮试图进攻北原和阳遂，并非成功攻占。因此，根据这段记载，诸葛亮没有在记载中攻下北原或阳遂。所以，诸葛亮攻下的城池在这个历史片段中并未提及。
+Reader: 《三国志》中提到的事件是诸葛亮试图进攻北原和阳遂，并非成功攻占。因此，根据这段记载，诸葛亮没有在记载中攻下北原或阳遂。所以，诸葛亮攻下的城池在这个历史片段中并未提及。
+Reader: 《三国志》中提到的事件是诸葛亮试图进攻北原和阳遂，并非成功攻占。因此，根据这段记载，诸葛亮没有在记载中攻下北原或阳遂。所以，诸葛亮攻下的城池在这个历史片段中并未提及。
+Reader: 《三国志》中提到的事件是诸葛亮试图进攻北原和阳遂，并非成功攻占。因此，根据这段记载，诸葛亮没有在记载中攻下北原或阳遂。所以，诸葛亮攻下的城池在这个历史片段中并未提及。
+Reader: 《三国志》中提到的事件是诸葛亮试图进攻北原和阳遂，并非成功攻占。因此，根据这段记载，诸葛亮没有在记载中攻下北原或阳遂。所以，诸葛亮攻下的城池在这个历史片段中并未提及。
+Reader: 《三国志》中没有明确记载诸葛亮个人攻下了哪些城池。这段记载提到的是刘备攻破了雒县和成都，而不是诸葛亮。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有明确记载诸葛亮个人攻下了哪些城池。这段记载提到的是刘备攻破了雒县和成都，而不是诸葛亮。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有明确记载诸葛亮个人攻下了哪些城池。这段记载提到的是刘备攻破了雒县和成都，而不是诸葛亮。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有明确记载诸葛亮个人攻下了哪些城池。这段记载提到的是刘备攻破了雒县和成都，而不是诸葛亮。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有明确记载诸葛亮个人攻下了哪些城池。这段记载提到的是刘备攻破了雒县和成都，而不是诸葛亮。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有明确记载诸葛亮个人攻下了哪些城池。这段记载提到的是刘备攻破了雒县和成都，而不是诸葛亮。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮在太和二年(228)、太和五年(231)或青龙二年(234)的军事行动中攻下了任何特定的城池。提到的主要是诸葛亮的军事部署和司马懿、郭淮的防御策略，以及张郃和郭淮在对抗蜀军时取得的胜利。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮在太和二年(228)、太和五年(231)或青龙二年(234)的军事行动中攻下了任何特定的城池。提到的主要是诸葛亮的军事部署和司马懿、郭淮的防御策略，以及张郃和郭淮在对抗蜀军时取得的胜利。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮在太和二年(228)、太和五年(231)或青龙二年(234)的军事行动中攻下了任何特定的城池。提到的主要是诸葛亮的军事部署和司马懿、郭淮的防御策略，以及张郃和郭淮在对抗蜀军时取得的胜利。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮在太和二年(228)、太和五年(231)或青龙二年(234)的军事行动中攻下了任何特定的城池。提到的主要是诸葛亮的军事部署和司马懿、郭淮的防御策略，以及张郃和郭淮在对抗蜀军时取得的胜利。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮在太和二年(228)、太和五年(231)或青龙二年(234)的军事行动中攻下了任何特定的城池。提到的主要是诸葛亮的军事部署和司马懿、郭淮的防御策略，以及张郃和郭淮在对抗蜀军时取得的胜利。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮在太和二年(228)、太和五年(231)或青龙二年(234)的军事行动中攻下了任何特定的城池。提到的主要是诸葛亮的军事部署和司马懿、郭淮的防御策略，以及张郃和郭淮在对抗蜀军时取得的胜利。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮个人攻下的具体城池。这里描述的是诸葛亮参与的刘备与孙权联合抗曹的事件，以及他前往拜谒孙权并共商抗曹大计的情景。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮个人攻下的具体城池。这里描述的是诸葛亮参与的刘备与孙权联合抗曹的事件，以及他前往拜谒孙权并共商抗曹大计的情景。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮个人攻下的具体城池。这里描述的是诸葛亮参与的刘备与孙权联合抗曹的事件，以及他前往拜谒孙权并共商抗曹大计的情景。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮个人攻下的具体城池。这里描述的是诸葛亮参与的刘备与孙权联合抗曹的事件，以及他前往拜谒孙权并共商抗曹大计的情景。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮个人攻下的具体城池。这里描述的是诸葛亮参与的刘备与孙权联合抗曹的事件，以及他前往拜谒孙权并共商抗曹大计的情景。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+Reader: 《三国志》中没有记载诸葛亮个人攻下的具体城池。这里描述的是诸葛亮参与的刘备与孙权联合抗曹的事件，以及他前往拜谒孙权并共商抗曹大计的情景。因此，根据提供的资料，我们无法得知诸葛亮具体攻下的城池。
+2024-03-19 20:15:26.384 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:15:26.384 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:15:26.384 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:15:26.384 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:15:26.384 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:15:26.384 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+refiner: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+refiner: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+refiner: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+refiner: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+refiner: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。
+refiner: 《三国志》中并没有记载诸葛亮攻下了哪些具体的城池。该文献主要提到的是诸葛亮作为丞相治理蜀国，并未详述其攻城的详细情况。因此，关于诸葛亮攻下的城池的具体信息，我们无法从《三国志》中获取。

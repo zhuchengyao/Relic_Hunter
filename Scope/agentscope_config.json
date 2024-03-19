@@ -3,7 +3,7 @@
     "model_type": "dashscope_chat",
     "config_name": "qwen_1.5_72B",
     "model_name": "qwen1.5-72b-chat",
-    "api_key": "sk-8ab06c37faff4235a7340879b8103b88",
+    "api_key": "sk-a55c969f708b43429ec601d536f9efac",
     "generate_args": {
         "temperature": 0.3
     },

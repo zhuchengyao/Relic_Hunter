@@ -1,0 +1,42 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240319-232250",
+    "arguments": {
+        "model": "qwen1.5-72b-chat",
+        "messages": [
+            {
+                "role": "system",
+                "content": "\u5e2e\u6211\u6574\u7406\u95ee\u9898\u548c\u7b54\u6848\uff0c\u8f93\u51fa\u6700\u7ec8\u7684\u7b54\u6848\u7ed9\u6211\uff0c\u4e0d\u7528\u8bf4\u4e4b\u524d\u7684\u7b54\u6848\u6b63\u786e\u4e0e\u5426\u3002\u5982\u679c\u56de\u7b54\u6709\u5f15\u7528\u7684\u8bf7\u5728\u6700\u540e\u7528\u300a\u4e66\u540d\u300b[\u539f\u6587]\u683c\u5f0f\u5c55\u793a\u51fa\u6765"
+            },
+            {
+                "role": "user",
+                "content": "\u539f\u95ee\u9898:\u5173\u7fbd\u6b7b\u540e\u8c01\u7ee7\u627f\u4e86\u4ed6\u7684\u7235\u4f4d\uff1f\u5173\u7fbd\u7684\u8c25\u53f7\u662f\u4ec0\u4e48\u7b54\u6848\u5173\u7fbd\u7684\u513f\u5b50\u90ed\u5955\u7ee7\u627f\u4e86\u4ed6\u7684\u7235\u4f4d\uff0c\u5173\u7fbd\u7684\u8c25\u53f7\u662f\u8d1e\u4faf\u3002\u8fd9\u4e9b\u4fe1\u606f\u6765\u81ea\u4e8e\u300a\u4e09\u56fd\u5fd7\u300b\u7684\u8bb0\u8f7d\u3002"
+            }
+        ],
+        "temperature": 0.3
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "5bb1bad0-4156-9617-a027-854afc0a4209",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "\u7b54\u6848:\u5173\u7fbd\u7684\u513f\u5b50\u5173\u5e73\u7ee7\u627f\u4e86\u4ed6\u7684\u7235\u4f4d\uff0c\u5173\u7fbd\u7684\u8c25\u53f7\u662f\u58ee\u7f2a\u4faf\u3002\u8fd9\u4e9b\u4fe1\u606f\u6765\u81ea\u4e8e\u300a\u4e09\u56fd\u5fd7\u00b7\u8700\u4e66\u00b7\u5173\u7fbd\u4f20\u300b[\u539f\u6587]:\u201c\u6743\u9063\u5c06\u9006\u51fb\u7fbd\uff0c\u65a9\u7fbd\u53ca\u5b50\u5e73\u4e8e\u4e34\u6cae\u3002\u201d\u53ca\u201c\u8ffd\u8c25\u7fbd\u4e3a\u58ee\u7f2a\u4faf\u3002\u201d"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 94,
+            "output_tokens": 63,
+            "total_tokens": 157
+        }
+    }
+}

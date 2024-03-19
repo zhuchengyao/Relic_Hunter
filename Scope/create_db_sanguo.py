@@ -6,13 +6,12 @@ from langchain.chains import LLMChain, SimpleSequentialChain, RetrievalQA, Conve
 import chromadb
 import os
 
-
 chroma_client = chromadb.Client()
 client = chromadb.PersistentClient(path="./db_history")
 
 
 embedding = DashScopeEmbeddings(
-    model="text-embedding-v2", dashscope_api_key="sk-a55c969f708b43429ec601d536f9efac")
+    model="text-embedding-v1", dashscope_api_key="sk-8ab06c37faff4235a7340879b8103b88")
 
 
 dir_path = []
@@ -24,13 +23,13 @@ for root, dirs, files in os.walk(folder_path):
         dir_name.append(file)
 
 text_splitter = RecursiveCharacterTextSplitter(separators=["\n\n", "\n", "。", " ", ""],
-                                               chunk_size=256,
+                                               chunk_size=1024,
                                                chunk_overlap=32)
 select_dir = []
-select_dir.append(dir_path[23])
-select_dir.append(dir_path[25])
-select_dir.append(dir_path[22])
-for i,j in enumerate(select_dir):
+select_dir.append(dir_path[23])     # 三国志
+# select_dir.append(dir_path[25])
+select_dir.append(dir_path[22])   # 白话三国志
+for i,j in enumerate(dir_path):
     print(i)
     print(":")
     print(j)

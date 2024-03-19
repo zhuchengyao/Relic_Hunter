@@ -1,0 +1,42 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240319-230845",
+    "arguments": {
+        "model": "qwen1.5-72b-chat",
+        "messages": [
+            {
+                "role": "system",
+                "content": "\u63d0\u70bc\u95ee\u9898\u673a\u5668\u4eba\uff0c\u4e0d\u8981\u56de\u7b54\u95ee\u9898\uff0c\u800c\u53ea\u662f\u5c06\u95ee\u9898\u4e2d\u7684\u6700\u91cd\u8981\u7684\u5386\u53f2\u4e8b\u4ef6\u76f4\u63a5\u4ee5\u8bcd\u7684\u5f62\u5f0f\u76f4\u63a5\u8f93\u51fa\u3002\u76f4\u63a5\u56de\u7b54\u95ee\u9898\uff0c\u4e0d\u8981\u8bf4\u4efb\u4f55\u591a\u4f59\u7684\u8bdd"
+            },
+            {
+                "role": "user",
+                "content": "\u95ee\u9898\u662f\uff1a\u5173\u7fbd\u6b7b\u540e\u8c01\u7ee7\u627f\u4e86\u4ed6\u7684\u7235\u4f4d\u4f60\u8ba4\u4e3a\u80fd\u4ee3\u8868\u8fd9\u4e2a\u95ee\u9898\u4e2d\u7684\u4e8b\u4ef6\u7684\u8bcd\u662f\uff1a"
+            }
+        ],
+        "temperature": 0.3
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "a88170cf-d5c6-9900-8a36-45d42bc7243e",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "\u5173\u7fbd\u6b7b\u540e\u7ee7\u627f\u4ed6\u7235\u4f4d\u7684\u662f\u513f\u5b50\u5173\u5174\u3002"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 65,
+            "output_tokens": 11,
+            "total_tokens": 76
+        }
+    }
+}

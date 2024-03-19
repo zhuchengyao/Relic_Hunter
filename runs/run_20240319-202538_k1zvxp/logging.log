@@ -1,0 +1,87 @@
+2024-03-19 20:26:01.721 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:26:01.724 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-03-19 20:26:01.725 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-03-19 20:26:01.725 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240319-202538_k1zvxp/agentscope.db]
+2024-03-19 20:26:01.727 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:26:01.727 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen1.5-72b-chat.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:26:01.728 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen1.5-72b-chat.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:26:01.730 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen1.5-72b-chat.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+incidence_checker: 关羽、刮骨疗伤
+2024-03-19 20:26:03.214 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 不知道。《三国志》中没有提到关羽刮骨疗伤的具体事件，该记载可能来源于其他文献或传说。
+Reader: 不知道。《三国志》中的记载仍然没有提及关羽刮骨疗伤的事情。这个故事可能来源于其他文献或民间传说，而不是历史记载。
+Reader: 不知道。《三国志》中的这段记载依然没有提供关于关羽刮骨疗伤的信息。这个故事可能并非来自正史，而是后世的传说或艺术加工。
+2024-03-19 20:26:41.994 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:26:41.994 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:26:41.995 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:26:41.995 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:26:41.995 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:26:41.996 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:26:41.995 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:26:41.996 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:26:41.999 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:26:41.999 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+incidence_checker: 关羽、华佗、刮骨疗伤
+incidence_checker: 关羽、华佗、刮骨疗伤
+2024-03-19 20:26:43.077 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:26:43.077 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 《三国志》中并没有记载关羽找华佗刮骨疗伤的具体事件。这个故事常见于后世的传说和文学作品，如《三国演义》，但在历史文献《三国志》中并未提及。因此，根据严谨的历史记载，这可能不是一个真实的历史事件。
+Reader: 《三国志》中并没有记载关羽找华佗刮骨疗伤的具体事件。这个故事常见于后世的传说和文学作品，如《三国演义》，但在历史文献《三国志》中并未提及。因此，根据严谨的历史记载，这可能不是一个真实的历史事件。
+Reader: 这个问题仍然没有直接的答案。提供的《三国志》片段描述了庞德与关羽的战斗，但并没有提到关羽找华佗刮骨疗伤的事情。这个故事依然主要来源于文学作品而非历史记录。
+Reader: 这个问题仍然没有直接的答案。提供的《三国志》片段描述了庞德与关羽的战斗，但并没有提到关羽找华佗刮骨疗伤的事情。这个故事依然主要来源于文学作品而非历史记录。
+Reader: 这个问题仍然没有找到直接的答案。《三国志》中的这段记载主要涉及关羽攻樊城和徐晃的救援，以及于禁的投降，但并没有提及关羽找华佗刮骨疗伤的事件。这个故事可能来源于其他非历史文献的叙述。
+Reader: 这个问题仍然没有找到直接的答案。《三国志》中的这段记载主要涉及关羽攻樊城和徐晃的救援，以及于禁的投降，但并没有提及关羽找华佗刮骨疗伤的事件。这个故事可能来源于其他非历史文献的叙述。
+2024-03-19 20:27:55.854 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:27:55.854 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:27:55.854 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_1.5_72B] already exists.
+2024-03-19 20:27:55.855 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:27:55.855 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:27:55.855 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_72b] already exists.
+2024-03-19 20:27:55.855 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:27:55.855 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:27:55.855 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen_plus] already exists.
+2024-03-19 20:27:55.855 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:27:55.855 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:27:55.855 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen_1.5_72B, qwen_72b, qwen_plus
+2024-03-19 20:27:55.859 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:27:55.859 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:27:55.859 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+incidence_checker: 华雄 被 杀死
+incidence_checker: 华雄 被 杀死
+incidence_checker: 华雄 被 杀死
+2024-03-19 20:27:56.845 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:27:56.845 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+2024-03-19 20:27:56.845 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_1.5_72B]
+Reader: 华雄的死亡情况在提供的《三国志》片段中没有提及。该文献记载了吕布杀死了董卓以及后续的事件，但没有提到华雄。因此，根据这些信息，我们无法得知华雄是谁杀死的。
+Reader: 华雄的死亡情况在提供的《三国志》片段中没有提及。该文献记载了吕布杀死了董卓以及后续的事件，但没有提到华雄。因此，根据这些信息，我们无法得知华雄是谁杀死的。
+Reader: 华雄的死亡情况在提供的《三国志》片段中没有提及。该文献记载了吕布杀死了董卓以及后续的事件，但没有提到华雄。因此，根据这些信息，我们无法得知华雄是谁杀死的。
+Reader: 关于华雄的死亡情况，提供的《隋史》片段中没有相关记载。这段文字讨论的是李孝常在华阴的反叛事件，而不是华雄的故事。因此，我们无法从这里得知华雄是谁杀死的。
+Reader: 关于华雄的死亡情况，提供的《隋史》片段中没有相关记载。这段文字讨论的是李孝常在华阴的反叛事件，而不是华雄的故事。因此，我们无法从这里得知华雄是谁杀死的。
+Reader: 关于华雄的死亡情况，提供的《隋史》片段中没有相关记载。这段文字讨论的是李孝常在华阴的反叛事件，而不是华雄的故事。因此，我们无法从这里得知华雄是谁杀死的。
+Reader: 《三国志》中的记载仍然没有涉及华雄被谁杀死的信息。这段文字提到了董卓信任的官员周毖、伍琼以及他们推荐的地方官员，但并未提及华雄及其死亡情况。所以，我们无法从这里找到答案。
+Reader: 《三国志》中的记载仍然没有涉及华雄被谁杀死的信息。这段文字提到了董卓信任的官员周毖、伍琼以及他们推荐的地方官员，但并未提及华雄及其死亡情况。所以，我们无法从这里找到答案。
+Reader: 《三国志》中的记载仍然没有涉及华雄被谁杀死的信息。这段文字提到了董卓信任的官员周毖、伍琼以及他们推荐的地方官员，但并未提及华雄及其死亡情况。所以，我们无法从这里找到答案。
+Reader: 《隋史》的这段记载涉及的是翟让集团内部的冲突，以及李密对待翟让部将的行为，其中并没有提到华雄或者他的死亡情况。所以，我们无法从这里得知华雄是谁杀死的。
+Reader: 《隋史》的这段记载涉及的是翟让集团内部的冲突，以及李密对待翟让部将的行为，其中并没有提到华雄或者他的死亡情况。所以，我们无法从这里得知华雄是谁杀死的。
+Reader: 《隋史》的这段记载涉及的是翟让集团内部的冲突，以及李密对待翟让部将的行为，其中并没有提到华雄或者他的死亡情况。所以，我们无法从这里得知华雄是谁杀死的。
+Reader: 《三国志》的这段记载涉及的是曹魏时期对王凌和华歆等人后代的惩罚，以及对华歆之子华广的评价，但并没有提到华雄以及他被谁杀死的信息。所以，我们仍然无法得知华雄的死亡情况。
+Reader: 《三国志》的这段记载涉及的是曹魏时期对王凌和华歆等人后代的惩罚，以及对华歆之子华广的评价，但并没有提到华雄以及他被谁杀死的信息。所以，我们仍然无法得知华雄的死亡情况。
+Reader: 《三国志》的这段记载涉及的是曹魏时期对王凌和华歆等人后代的惩罚，以及对华歆之子华广的评价，但并没有提到华雄以及他被谁杀死的信息。所以，我们仍然无法得知华雄的死亡情况。
+Reader: 《魏书》和《英雄记》的记载中，都没有提到华雄以及他的死亡情况。这里只描述了董卓的一些残酷行为，包括杀害侍御史扰龙宗和处理何苗母亲的尸体，但未提及华雄。所以，我们仍然无法得知华雄是被谁杀死的。
+Reader: 《魏书》和《英雄记》的记载中，都没有提到华雄以及他的死亡情况。这里只描述了董卓的一些残酷行为，包括杀害侍御史扰龙宗和处理何苗母亲的尸体，但未提及华雄。所以，我们仍然无法得知华雄是被谁杀死的。
+Reader: 《魏书》和《英雄记》的记载中，都没有提到华雄以及他的死亡情况。这里只描述了董卓的一些残酷行为，包括杀害侍御史扰龙宗和处理何苗母亲的尸体，但未提及华雄。所以，我们仍然无法得知华雄是被谁杀死的。
+2024-03-19 20:28:12.567 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:28:12.567 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:28:12.567 | INFO     | agentscope.models.model:__init__:239 - Initialize model [qwen_72b]
+2024-03-19 20:28:12.570 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:28:12.570 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:28:12.570 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:28:12.572 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:28:12.572 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:28:12.572 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:28:12.574 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:28:12.574 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-03-19 20:28:12.574 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-72b-chat.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+refiner: 【华雄是被谁杀死的】华雄的死亡情况在提供的《三国志》片段中没有提及。该文献记载了吕布杀死了董卓以及后续的事件，但没有提到华雄。因此，根据这些信息，我们无法得知华雄是谁杀死的。
+refiner: 【华雄是被谁杀死的】华雄的死亡情况在提供的《三国志》片段中没有提及。该文献记载了吕布杀死了董卓以及后续的事件，但没有提到华雄。因此，根据这些信息，我们无法得知华雄是谁杀死的。
+refiner: 【华雄是被谁杀死的】华雄的死亡情况在提供的《三国志》片段中没有提及。该文献记载了吕布杀死了董卓以及后续的事件，但没有提到华雄。因此，根据这些信息，我们无法得知华雄是谁杀死的。

@@ -3,7 +3,7 @@ from langchain_community.embeddings import DashScopeEmbeddings
 
 def embedding_method():
     embedding = DashScopeEmbeddings(
-        model="text-embedding-v2", dashscope_api_key="sk-a55c969f708b43429ec601d536f9efac")
+        model="text-embedding-v1", dashscope_api_key="sk-a55c969f708b43429ec601d536f9efac")
     return embedding
 
 
